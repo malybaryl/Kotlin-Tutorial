@@ -45,6 +45,11 @@ fun sayHello8 (itemToGreet: String) {
     println("Hello, $itemToGreet!")
 }
 
+fun sayHello9 (greeting: String, itemToGreet: String) {
+    println("$greeting, $itemToGreet!")
+}
+
+
 fun main(){
     println("Hello, World!")
     println(getGreeting())
@@ -54,5 +59,6 @@ fun main(){
     sayHello2("Jack")
 
     sayHello7("World")
+    sayHello9("Nice to meet you", "John")
 }
 

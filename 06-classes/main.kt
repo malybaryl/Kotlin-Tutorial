@@ -28,4 +28,14 @@ fun main() {
     println(person4.lastName)
 
     person4.nickname = "jonnyd"
+
+    println(person4.nickname)
+
+    println("\n---------\n")
+
+    person4.printInfo()
+
+    val person5 = Person3("Jane", "Smith")
+
+    person5.printInfo()
 }

@@ -11,14 +11,13 @@ final internal class exampleInternalClass {}
 // meaning it is accessible only within the same module.
 // It is not visible outside the module boundary.
 
-open class exampleProtectedClass{
+open class exampleProtectedClass  {
     protected var greeting: String = "Hello"
 }
 // The 'open' keyword allows a class to be inherited or a method/property to be overridden in a subclass.
 // This property/function is marked as 'protected', 
 // meaning it is accessible within the same class and its subclasses.
 // It is not visible outside the class hierarchy.
-
 
 private class examplePrivateClass {}
 // This property/function/class is marked as 'private', 

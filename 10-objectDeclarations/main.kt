@@ -3,7 +3,9 @@ object EntityFactory {
 }
 
 class Entity(val id: Int){
-    
+    override fun toString(): String {
+        return "Entity(id=$id)"
+    }
 }
 
 fun main(){
